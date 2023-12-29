@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Material3.CardView.Outlined"
+    app:cardCornerRadius="0dp"
+    android:id="@+id/cv_request_item"
+    app:strokeWidth="0dp"
+    app:contentPaddingLeft="@dimen/_10sdp"
+    app:contentPaddingTop="@dimen/_5sdp"
+    android:clickable="true"
+    android:focusable="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ctl_item_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imv_avatar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintWidth_percent="0.18"
+            app:layout_constraintRight_toLeftOf="@id/view_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/Circular"
+            android:src="@drawable/cover_image_profile_exam"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:id="@+id/view_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/imv_avatar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/imv_avatar"
+            app:layout_constraintWidth_percent="0.35"
+            app:layout_constraintDimensionRatio="2:1"
+            android:gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_contact_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="?attr/textAppearanceBodyLarge"
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textColor="@color/greyLight"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/view_content"
+            app:layout_constraintWidth_percent="0.47"
+
+            app:layout_constraintDimensionRatio="2.5:1"
+            android:weightSum="1"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_accept_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chấp nhận"
+                android:layout_gravity="center"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:visibility="visible"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_deny_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Từ chối"
+                android:layout_gravity="center"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:textColor="?attr/colorError"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

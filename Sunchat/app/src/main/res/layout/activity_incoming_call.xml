@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clIncomingCallActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.call.incoming.IncomingCallActivity">
+
+    <FrameLayout
+        android:id="@+id/layout_remote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/blueDark" />
+
+    <FrameLayout
+        android:id="@+id/layout_local"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_switch"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_switch"
+        android:contentDescription="@string/button_switch" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        tools:ignore="RelativeOverlap">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imv_avatar"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_default_user" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/text_phone_number"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Cuộc gọi đến"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/img_btn_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_speaker_off"
+                android:contentDescription="@string/button_speaker" />
+
+            <ImageButton
+                android:id="@+id/img_btn_mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@drawable/btn_mic"
+                android:contentDescription="@string/button_mute" />
+
+            <ImageButton
+                android:id="@+id/img_btn_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@drawable/btn_video_off"
+                android:contentDescription="@string/button_video" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_btn_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/btn_end_call_selector"
+            android:contentDescription="@string/button_end"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_50sdp">
+
+            <ImageButton
+                android:id="@+id/img_btn_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_45sdp"
+                android:background="@drawable/btn_answer_call_selector"
+                android:contentDescription="@string/button_answer" />
+
+            <ImageButton
+                android:id="@+id/img_btn_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:background="@drawable/btn_end_call_selector"
+                android:contentDescription="@string/button_reject" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

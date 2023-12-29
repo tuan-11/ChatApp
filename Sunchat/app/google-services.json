@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400726994096",
+    "project_id": "appchat-aeb05",
+    "storage_bucket": "appchat-aeb05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400726994096:android:f82d83118cadec8dac5f75",
+        "android_client_info": {
+          "package_name": "com.zileanstdio.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhuyBupzOPcC8TjO-_qaWcCX9OehL8D6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

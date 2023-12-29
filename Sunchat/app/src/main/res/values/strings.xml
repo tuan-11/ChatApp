@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Sunchat</string>
+    <string name="messages">Tin nhắn</string>
+    <string name="contacts">Danh bạ</string>
+    <string name="profile">Cá nhân</string>
+    <string name="search_text">Tìm kiếm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_text">Đăng nhập</string>
+    <string name="register_text">Đăng ký</string>
+    <string name="create_account_text">Tạo tài khoản</string>
+    <string name="hint_input_zalo_name_text">Gồm 2–40 kí tự</string>
+    <string name="rules_set_name_text1">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b>Quy định đặt tên trên Zalo</b>.</string>
+    <string name="hint_input_number_phone_text">Nhập số điện thoại</string>
+    <string name="confirm_otp_auth_text">Mã kích hoạt sẽ được gửi tới số điện thoại này</string>
+    <string name="cancel_text">Hủy</string>
+    <string name="confirm_text">Xác nhận</string>
+    <string name="input_code_verify_text">Nhập mã kích hoạt</string>
+    <string name="loading_text">Đang xử lý..</string>
+    <string name="number_phone_text">Số điện thoại</string>
+    <string name="password_text">Mật khẩu</string>
+    <string name="birthdate_gender_text">Ngày sinh và giới tính</string>
+    <string name="gender_text">Giới tính</string>
+    <string name="birthdate_text">Ngày sinh</string>
+    <string name="string_note_three"><b>Lưu ý:</b> Một số điện thoại chỉ được phép gắn với một tài khoản Zalo.</string>
+    <string name="Contact_In_Device">Danh bạ máy</string>
+    <string name="friend_request">Lời mời kết bạn</string>
+    <string name="recent_message_type_record">[Tin nhắn thoại]</string>
+    <string name="genderAndBirthDate">Ngày sinh và giới tính</string>
+    <string name="weak_password_exception_message">Mật khẩu của bạn quá yếu</string>
+    <string name="has_error">Đã xảy ra lỗi. Vui lòng thử lại sau!</string>
+    <string name="ask_permission">This app needs you to allow this permission in order to function. If you allow it, please click SETTINGS to Manually set permission for this action</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sunchat_version_1_0">Sunchat - version 1.0</string>
+    <string name="chat_app_icon">Chat App Icon</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="logout_text">Đăng xuất</string>
+    <string name="name_text">Họ và tên</string>
+    <string name="user_text">User Name</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="select_image">Select Image</string>
+    <string name="user_name_text">Nhập tên người dùng</string>
+    <string name="password_old_text">Nhập mật khẩu cũ</string>
+    <string name="password_new_text">Nhập mật khẩu mới</string>
+    <string name="password_confirm_text">Nhập lại mật khẩu</string>
+    <string name="user_info_text">Thông tin người dùng</string>
+    <string name="noti_introduce_new_message">Các bạn đã là bạn bè của nhau trên Sunchat</string>
+
+    <string name="text_phone_number">0987654321</string>
+    <string name="add_friend_text">Kết bạn</string>
+    <string name="notice_change_password">Vui lòng nhập mật khẩu cũ, mật khẩu mới và mật khẩu xác nhận</string>
+    <string name="button_next_change_password">Button Next Change Password</string>
+    <string name="text_password_old">Nhập mật khẩu hiện tại</string>
+    <string name="text_password_new">Nhập mật khẩu mới</string>
+    <string name="text_password_confirm">Nhập lại mật khẩu mới</string>
+
+    <string name="online">Đang hoạt động</string>
+    <string name="button_switch">Button Switch</string>
+    <string name="button_speaker">Button Speaker</string>
+    <string name="button_mute">Button Mute</string>
+    <string name="button_video">Button Video</string>
+    <string name="button_end">Button End</string>
+    <string name="button_answer">Button Answer</string>
+    <string name="button_reject">Button Reject</string>
+
+    <string name="time_unit_second">giây</string>
+    <string name="time_unit_minute">phút</string>
+    <string name="time_unit_hour">giờ</string>
+
+    <string name="title_outgoing_call">Cuộc gọi thoại</string>
+    <string name="title_incoming_call">Cuộc gọi thoại đến</string>
+    <string name="title_outgoing_video_call">Cuộc gọi video</string>
+    <string name="title_incoming_video_call">Cuộc gọi video đến</string>
+
+</resources>

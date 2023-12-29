@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clRegisterActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Ui.register.RegisterActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        style="@style/Widget.Material3.FloatingActionButton.Tertiary"
+        android:id="@+id/activity_register.next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_arrow_right_regular"
+        app:backgroundTint="@color/blue"
+        app:tint="@color/white"
+        android:enabled="false"
+        />
+
+    <FrameLayout
+        android:id="@+id/activity_register.content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
